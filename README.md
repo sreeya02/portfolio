@@ -14,10 +14,9 @@ Files:
 | File | What | Page |
 |---|---|---|
 | `headshot.jpg` | Your photo (already added) | Home |
-| `personal.jpg` | A personal photo (event, lab, hobby) | Home |
 | `ring-oscillator.png` | Virtuoso layout screenshot | Home |
 | `diff-amp.png` | Schematic screenshot | Home |
-| `wild-strike.jpg` | Wild S.T.R.I.K.E. kit / team photo | Home |
+| `wild-strike.png` | Wild S.T.R.I.K.E. kit / team photo | Home |
 | `water-quality.png` | Chart or screenshot from your ML model | Home |
 | `discovery-cover.jpg` | Main photo of your Discovery Project | Both |
 | `discovery-process-1.jpg`, `-2.jpg`, `-3.jpg` | Project process shots | Discovery |
