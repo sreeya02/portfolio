@@ -76,6 +76,376 @@
     <div class="wrap">
       <div class="fact"><small>Studying</small><b>B.S. Electrical Engineering</b></div>
       <div class="fact"><small>Focus</small><b>Power systems + circuits</b></div>
+      <div class="fact"><small>Involved in</small><b>Silicon Jackets · WiECE</b></div>
+      <div class="fact"><small>Speaks</small><b>Telugu · English · Spanish</b></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ME ============ -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <div class="label">01 · About me</div>
+        <h2>A little about me.</h2>
+
+        <p>I chose electrical engineering because of how versatile it is and how many different fields it connects to, from renewable energy and circuit design to AI and emerging technologies. What excites me most is being able to explore these different interests and apply what I learn in class to real-world projects. I especially enjoy the hands-on side of engineering, whether that's designing something from scratch, testing out ideas, or figuring out why something isn't working the way I expected.</p>
+
+        <p>One of my biggest interests is renewable energy and sustainability. Before coming to Georgia Tech, I got involved with Virginia Tech's Engineering &amp; Computer Science internship program, where I've had the opportunity to work with a graduate researcher on solar technology research, write about renewable energy, and analyze electricity consumption in a building to explore ways to improve efficiency. That experience made me realize how much engineering can contribute to solving problems we see every day.</p>
+
+        <p>Since coming to Tech, I've also developed a growing interest in circuit and chip design. Through Silicon Jackets, I've been learning how to design and simulate circuits, work with transistor layouts, and troubleshoot designs when things don't go as planned. One of my favorite parts of engineering is finally figuring out why something isn't working after spending hours trying different solutions. It's frustrating in the moment, but getting it to work makes the whole process worth it.</p>
+
+        <p>I'm also really interested in the intersection of hardware, software, and AI. I've worked on projects ranging from an Arduino-based environmental monitoring system to a machine learning model that predicts water quality. I enjoy exploring different areas of engineering, and I'm still figuring out exactly where I want to take those interests.</p>
+
+        <p>Outside of engineering, I love dancing, meeting new people, and being involved in my community. I'm part of Jadoo, Georgia Tech's dance team, and I enjoy finding ways to stay connected with both my culture and the people around me. I've also always loved teaching, whether that was working as a math instructor at Mathnasium or leading my high school's AI Club.</p>
+
+        <p>I'm still at the beginning of my journey as an engineer, and there's honestly so much I want to learn. I'm excited to keep exploring new interests, challenging myself, and building things that can make a difference.</p>
+      </div>
+
+      <aside class="about-side">
+        <!-- EDIT: add images/personal.jpg (a photo of you at an event, in lab, or doing something you enjoy) and update the caption -->
+        <figure>
+          <div class="photo" data-ph="images/personal.jpg">
+            <img src="images/personal.jpg" alt="Sreeya Sangaraju" onerror="this.remove()">
+          </div>
+          <figcaption><b>Fig. 1</b> — [Add a caption]</figcaption>
+        </figure>
+
+        <div class="toolbox">
+          <h4>Areas I'm exploring</h4>
+          <div class="chips">
+            <span>Power systems</span><span>Solar / renewable energy</span><span>Circuit design</span>
+            <span>Digital logic</span><span>Layout &amp; verification</span><span>Machine learning</span>
+          </div>
+          <h4>Tools</h4>
+          <div class="chips">
+            <span>Python</span><span>Java</span><span>C/C++ (Arduino)</span><span>HTML</span>
+            <span>Arduino IDE</span><span>GitHub</span><span>Cadence Virtuoso</span><span>Microsoft Office</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="projects">
+    <div class="wrap">
+      <div class="intro">
+        <div class="label">02 · Technical projects</div>
+        <h2>Projects I've Worked On</h2>
+        <p>I learn best by actually building things and figuring out how they work. These projects have given me the chance to apply what I've learned in class, work through challenges, and pick up new skills along the way. I'll continue adding more projects as I gain experience at Georgia Tech.</p>
+      </div>
+
+      <!-- Featured: Discovery Project (REQUIRED by the Discovery Project Showcase).
+           EDIT: replace the title and the two sentences with your project. -->
+      <article class="feature">
+        <div class="photo" data-ph="images/discovery-cover.jpg">
+          <img src="images/discovery-cover.jpg" alt="My ECE 1100 Discovery Project" onerror="this.remove()">
+        </div>
+        <div class="feature-body">
+          <div class="label">Discovery Project · ECE 1100</div>
+          <h3>[Discovery Project title]</h3>
+          <p>[One or two sentences on what your project is and what problem it tackles.]</p>
+          <p>Full write-up, photos, and results coming before the Discovery Project Showcase.</p>
+          <!-- EDIT: when your write-up is ready, replace the span below with:
+               <a class="btn light" href="discovery-project.html">Read the full project →</a> -->
+          <div class="actions"><span class="btn light" style="opacity:.6;cursor:default" aria-disabled="true">Coming soon</span></div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project">
+          <!-- EDIT: add a screenshot of your layout as images/ring-oscillator.png -->
+          <div class="photo" data-ph="images/ring-oscillator.png">
+            <img src="images/ring-oscillator.png" alt="Layout of a five-stage current-starved ring oscillator in Cadence Virtuoso" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <div class="status">Silicon Jackets · Completed</div>
+            <h3>Current-Starved Ring Oscillator</h3>
+            <p>I designed and simulated a five-stage current-starved ring oscillator in the SKY130 process. I built the circuit cells, studied how the oscillation frequency changed across operating conditions, and translated the schematic into a physical layout.</p>
+            <p>Most of my learning happened while debugging. Iterating through DRC and LVS checks taught me that a layout isn't finished just because it looks connected; the physical design and the schematic have to agree exactly.</p>
+            <div class="takeaway"><b>Result:</b> Final LVS check passed with no errors. Skills: transistor-level design, simulation sweeps, layout, verification.</div>
+            <div class="stack"><span>Cadence Virtuoso</span><span>SKY130</span><span>DRC / LVS</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <!-- EDIT: add your schematic screenshot as images/diff-amp.png -->
+          <div class="photo" data-ph="images/diff-amp.png">
+            <img src="images/diff-amp.png" alt="Schematic of a nine-transistor differential amplifier" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <div class="status wip">Silicon Jackets · In progress</div>
+            <h3>9-Transistor Differential Amplifier</h3>
+            <p>I'm currently working through a nine-transistor differential amplifier, focusing on how the input pair, biasing network, and current paths work together to amplify the difference between two signals.</p>
+            <p>This project is teaching me to think beyond "does it produce an output?" and toward "how good is that output?" I'm exploring the trade-offs between gain, bandwidth, common-mode rejection, power, and output swing.</p>
+            <div class="takeaway"><b>Next:</b> Define realistic performance specs, then simulate and evaluate. Results coming soon.</div>
+            <div class="stack"><span>Analog CMOS</span><span>Amplifiers</span><span>Performance specs</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <!-- EDIT: add a photo of your kit or prototype as images/wild-strike.jpg -->
+          <div class="photo" data-ph="images/wild-strike.jpg">
+            <img src="images/wild-strike.jpg" alt="Wild S.T.R.I.K.E. wildfire-prevention kit prototype" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <div class="status">C-Tech² @ Virginia Tech · July 2025</div>
+            <h3>Wild S.T.R.I.K.E.</h3>
+            <p>As co-designer and project manager, I led a four-person team through the design, prototyping, and testing of an accessible wildfire-prevention kit. We developed a concentrate formula to put out campfires and built an Arduino-based monitor that tracks temperature, oxygen, and smoke levels in real time.</p>
+            <p>Managing the team taught me as much as the engineering did: splitting up work, keeping a tight schedule, and making design decisions together when we disagreed.</p>
+            <div class="takeaway"><b>Result:</b> Our formula put out campfires 82% faster than traditional methods. 3rd Place, Engineering Design Project Award, presented by Bloomberg Industries.</div>
+            <div class="stack"><span>Arduino</span><span>C/C++</span><span>Sensors</span><span>Team lead</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <!-- EDIT: add a chart or screenshot from your model as images/water-quality.png -->
+          <div class="photo" data-ph="images/water-quality.png">
+            <img src="images/water-quality.png" alt="Water quality prediction results chart" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <div class="status">Regional Science Fair · 2024–2025</div>
+            <h3>Predicting Water Quality with Machine Learning</h3>
+            <p>Many underserved communities don't have historical water-quality monitoring data, which makes problems hard to catch early. I set out to build a low-cost prediction tool, preprocessing and visualizing regional datasets in Python and adding a time-decay factor so recent measurements counted more.</p>
+            <p>I coded and benchmarked several machine learning algorithms to find which predicted best, which taught me how much data cleaning and testing go into a model you can trust.</p>
+            <div class="takeaway"><b>Result:</b> Improved predictive accuracy by about 18%. 1st Place and $200, Regional Stockholm Junior Water Prize.</div>
+            <div class="stack"><span>Python</span><span>Machine learning</span><span>Data visualization</span></div>
+          </div>
+        </article>
+
+        <!-- TO ADD A NEW PROJECT: copy one <article class="project"> ... </article> block above,
+             paste it here, and change the image, text, and tags. -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE & LEADERSHIP ============ -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="intro">
+        <div class="label">03 · Experience &amp; leadership</div>
+        <h2>Where I've learned outside the classroom.</h2>
+      </div>
+      <div class="xp-list">
+        <article class="xp">
+          <div class="xp-when">June 2025 – Present</div>
+          <div>
+            <h3>STEM Research Intern &amp; Assistant</h3>
+            <div class="xp-org">Virginia Tech Engineering &amp; Computer Science Internship · Alexandria, VA</div>
+            <ul>
+              <li>Writing a paper on next-generation solar technology for IEEE submission alongside a graduate researcher.</li>
+              <li>Wrote 3+ blog posts on solar panel technology, teaching 40+ interns renewable energy fundamentals.</li>
+              <li>Analyzed electricity consumption data for the intern building to identify efficiency opportunities.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="xp">
+          <div class="xp-when">July 2025 – April 2026</div>
+          <div>
+            <h3>Instructor &amp; Mentor</h3>
+            <div class="xp-org">Mathnasium · Centreville, VA</div>
+            <ul>
+              <li>Taught mental math strategies and problem-solving to 25+ K–12 students.</li>
+              <li>Customized learning plans for 10+ students to help them reach grade-level benchmarks.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="xp">
+          <div class="xp-when">Jan 2025 – June 2026</div>
+          <div>
+            <h3>President, AI Club</h3>
+            <div class="xp-org">Centreville High School</div>
+            <ul>
+              <li>Designed and presented tutorials on machine learning, data science, and AI tools for 10+ students.</li>
+              <li>Shared 20+ free resources for certifications, resume building, and career enrichment.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="xp">
+          <div class="xp-when">2026 – Present</div>
+          <div>
+            <h3>Member, Campus Organizations</h3>
+            <div class="xp-org">Georgia Tech</div>
+            <ul>
+              <li>Silicon Jackets · Women in Electrical &amp; Computer Engineering (WiECE)</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAREER GOALS ============ -->
+  <section id="goals">
+    <div class="wrap goals-grid">
+      <div>
+        <div class="label">04 · Career goals</div>
+        <h2>Where I want to go, and how I'll get there.</h2>
+        <p class="muted">Long term, I want to work in power systems, helping design the circuits and grid technology that deliver clean, reliable energy. Solar and renewable energy are where I see myself making the biggest difference. Here's my roadmap from here to there.</p>
+
+        <div class="trace">
+          <div class="step now">
+            <small>Year 1 · Now</small>
+            <h3>Build a strong foundation</h3>
+            <p>Master the fundamentals of circuits, math, and programming. Continue my solar research, stay active in Silicon Jackets and WiECE, and land a research or internship position in power systems for Summer 2027.</p>
+          </div>
+          <div class="step">
+            <small>Years 2–3 · Go deeper</small>
+            <h3>Specialize and gain experience</h3>
+            <p>Take upper-level coursework in electrical energy systems and circuit design. Join an undergraduate research lab working on power or renewable energy, and pursue internships or a co-op with a utility or energy company where I can work on real grid problems.</p>
+          </div>
+          <div class="step">
+            <small>Year 4 · Bring it together</small>
+            <h3>Own a design end to end</h3>
+            <p>Lead a significant project, such as a capstone or a published research contribution, that takes an energy or circuit design from specification to tested hardware. Decide whether to go straight into industry or pursue a graduate degree first.</p>
+          </div>
+          <div class="step">
+            <small>After graduation</small>
+            <h3>Work on meaningful hardware</h3>
+            <p>Join a team working on power systems, renewable energy integration, or power electronics, where I can keep learning from experienced engineers and eventually own designs from idea to implementation.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="threads">
+        <div class="label">My ECE roadmap</div>
+        <h3>Combining two interests</h3>
+        <!-- EDIT: change these if your planned tracks change -->
+        <p>I plan to focus on <b>Electrical Energy</b> and <b>Circuit Technology</b>. Together, they cover what I care about most: how power is generated and delivered, and the circuits that make it all work.</p>
+        <div class="thread-pair">
+          <div><b>Electrical Energy</b><small>Power systems · Renewables · Power electronics</small></div>
+          <div><b>Circuit Technology</b><small>Analog &amp; digital circuits · Design · Implementation</small></div>
+        </div>
+        <p>I've started with Fundamentals of Digital Design, covering Boolean algebra, gate-level design, sequential logic, and finite state machines. Alongside coursework, I want to keep doing hands-on projects so I learn the practical constraints and debugging that textbooks don't always show.</p>
+        <p>My roadmap will evolve as I discover new areas and meet engineers with different paths, and I'm okay with that.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section id="resume" class="resume">
+    <div class="wrap resume-grid">
+      <div>
+        <div class="label">05 · Resume</div>
+        <h2>Experience at a glance.</h2>
+        <p>My resume brings together my coursework, technical projects, campus involvement, and the tools I'm learning. I update it as I take on new work.</p>
+        <p>I'm especially interested in opportunities in circuit design, hardware validation, and interdisciplinary engineering.</p>
+        <div class="actions">
+          <a class="btn light" href="resume.pdf" target="_blank" rel="noopener">Open full screen ↗</a>
+          <a class="btn light" href="resume.pdf" download>Download PDF ↓</a>
+        </div>
+      </div>
+      <!-- Shows your resume.pdf right on the page (desktop). On phones, the buttons are used instead. -->
+      <div class="resume-viewer">
+        <object data="resume.pdf#view=FitH" type="application/pdf" aria-label="Sreeya Sangaraju resume">
+          <div class="resume-fallback">Your browser can't preview PDFs here.<br><br><a class="btn light" href="resume.pdf" target="_blank" rel="noopener">View resume ↗</a></div>
+        </object>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <div class="label">06 · Contact</div>
+        <h2>Let's connect.</h2>
+        <p class="muted">I'd love to hear from students, engineers, and recruiters working on interesting hardware problems. Reach out about projects, opportunities, or just to talk circuits.</p>
+      </div>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:sreeyasangaraju@gmail.com">sreeyasangaraju@gmail.com</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/sreeya-sangaraju-808489310" target="_blank" rel="noopener">linkedin.com/in/sreeya-sangaraju</a></li>
+        <li><span>Based in</span><a href="#top">Atlanta, GA · Georgia Tech</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Sreeya Sangaraju</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sreeya Sangaraju | Electrical Engineering ePortfolio</title>
+  <meta name="description" content="Sreeya Sangaraju, Electrical Engineering student at Georgia Tech. Circuit design, hardware, and signal processing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =====================================================================
+     HOW TO EDIT
+     - Text: just change the words between the tags.
+     - Photos: put your image in the /images folder using the filename
+       shown in each data-ph="..." (e.g. images/headshot.jpg).
+       The striped placeholder disappears automatically once the file exists.
+     - Resume: save your PDF as resume.pdf next to this file.
+     - Search for "EDIT" to find every spot that needs your info.
+     ===================================================================== -->
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="chip-mark">SS</span> Sreeya Sangaraju</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="links">Menu</button>
+    <nav class="nav-links" id="links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#goals">Goals</a>
+      <a href="#resume">Resume</a>
+      <a class="cta" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ WELCOME ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="label">Welcome</div>
+        <h1>Hi, I'm <em>Sreeya.</em></h1>
+        <p class="welcome">I'm a first-year Electrical Engineering student at Georgia Tech who likes to understand how things work by building them. I'm focused on power and energy systems, with hands-on experience in solar research, and I'm building my circuit design skills with Silicon Jackets. This portfolio is my running lab notebook: what I've built, what I've learned, and where I'm headed.</p>
+        <div class="tags">
+          <span class="tag">Power systems</span>
+          <span class="tag">Solar technology</span>
+          <span class="tag">Circuit design</span>
+          <span class="tag">Arduino + Python</span>
+        </div>
+        <div class="actions">
+          <a class="btn solid" href="#projects">See my projects →</a>
+          <a class="btn ghost" href="resume.pdf" target="_blank" rel="noopener">Download resume</a>
+        </div>
+      </div>
+
+      <!-- Headshot, framed like an IC package. EDIT: add images/headshot.jpg -->
+      <div class="package" aria-label="Photo of Sreeya">
+        <span class="pins t"></span><span class="pins b"></span><span class="pins l"></span><span class="pins r"></span>
+        <div class="body">
+          <div class="photo" data-ph="images/headshot.jpg">
+            <img src="images/headshot.jpg" alt="Portrait of Sreeya Sangaraju" onerror="this.remove()">
+          </div>
+          <div class="marking"><span>U1 · SANGARAJU</span><span>GT-EE · 2026</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick facts. EDIT any of these. -->
+  <section class="facts" aria-label="Quick facts">
+    <div class="wrap">
+      <div class="fact"><small>Studying</small><b>B.S. Electrical Engineering</b></div>
+      <div class="fact"><small>Focus</small><b>Power systems + circuits</b></div>
       <div class="fact"><small>Involved in</small><b>SWE · WiECE · Silicon Jackets</b></div>
       <div class="fact"><small>Speaks</small><b>Telugu · English · Spanish</b></div>
     </div>
